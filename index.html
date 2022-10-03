@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Kaiquan Mah</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Kaiquan Mah</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <h2>Hi, I am Kai.</h2>
+        <h2>Hi, I am Kai</h2>
         <p>I have 6 years experience working on topics around data in the Financial Services industry.
-          I am looking to help companies understand data science and machine learning use cases, and implement these solutions to solve business problems.</p>
+           I am looking to help companies understand data science and machine learning use cases, and implement these solutions to solve business problems.</p>
       </header>
 
       <!-- ***********************  CURRENT INTERESTS  *********************** -->
-      <header>
+      <div class="current-interests-container">
+      <!-- <section> -->
         <h2>What am I learning and exploring</h2>
-        <p>
           <ul>
             <li>Artificial General Intelligence (AGI) Safety</li>
             <li>Google Cloud Data Engineer - to improve my understanding of setting up data pipelines and data stores in Google Cloud</li>
@@ -26,11 +27,11 @@
             <li>PySpark - to work on a data management proof of concept</li>
             <!-- <li>How to transition to clean sources of energy</li> -->
           </ul>
-        </p>
-      </header>
+      <!-- </section> -->
+      </div>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section>
+      <div class="projects-container">
         <h2>Featured Projects</h2>
         <!-- Copy the whole <section> block to add more projects. -->
         <section>
@@ -72,30 +73,30 @@
           </p>
         </section>
         <!-- End of Project block. -->
-      </section>
+      </div>
 
 
       <!-- ********************  WRITING SAMPLES  ********************* -->
-      <section>
+      <div class="writing-container">
         <h2>Writing Samples</h2>
             <ul>
                 <li>Article on Medium - <a href="https://medium.com/@kaiquanmah/algorithms-or-human-judgment-74a97a178880" target="_blank">Algorithms or Human Judgment</a></li>
                 <li>Review on ClassCentral - <a href="https://www.classcentral.com/report/review-michigan-stats-spe/" target="_blank">University of Michigan’s Statistics with Python Coursera Specialization</a></li>
             </ul>
         <!-- End of writing samples block. -->
-      </section>
+      </div>
 
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section>
+      <div class="work-container">
         <h2>Work Experience</h2>
         <!-- Copy this whole <section> block to add more jobs. -->
         <section>
           <h3>Specialist - Accenture - Singapore</h3>
           <ul>
             <li><b>Specialist (Jun 2021 – Present)</b></li>
-            <ul>
-                <li><b>Post-Merger Integration (Plan)</b><br>
+            <ol><p>
+                <li><b>Post-Merger Integration (Planning)</b><br>
                     March 2022 - Present (more than 6 months)<br>
                     <ul>
                       <li>This is a post-merger integration project for the buyer where the buyer is acquiring the seller's retail banking operations across Malaysia, Indonesia, Thailand and Vietnam, and decisions keep changing or take a long time to get approved</li>
@@ -103,7 +104,8 @@
                       <li>Supported a MD in assessing the customer journey impact across assisted and digital channels based on a (1) banking then cards, and (2) cards then banking approach</li>
                       <li>Listened and actioned on data mapping workshop concerns raised buyer's workstreams and the seller's project management team</li>
                     </ul>
-                </li>
+                </li></p>
+                <p>
                 <li><b>Palantir Foundry Hackathon (Build)</b><br>
                     February 2022 (1 month)<br>
                     <ul>
@@ -116,7 +118,8 @@
                         </ul>
                       </li>
                     </ul>
-                </li>
+                </li></p>
+                <p>
                 <li><b>Master Data Management (Requirements, Design, Build)</b><br>
                     June 2021 - January 2022 (8 months)<br>
                     <ul>
@@ -132,10 +135,10 @@
                         </ul>
                       </li>
                     </ul>
-                </li>
-            </ul>
+                </li></p>
+            </ol>
             <li><b>Senior Analyst (Jan 2019 – May 2021)</b></li>
-            <ul>
+            <ol><p>
                 <li><b>Master Data Management (Requirements, Design, Build)</b><br>
                     May 2021 (1 month)<br>
                     <ul>
@@ -149,7 +152,8 @@
                         </ul>
                       </li>
                     </ul>
-                </li>
+                </li></p>
+                <p>
                 <li>
                     <b>Master Data Management (Planning)</b><br>
                     February 2021 - April 2021 (3 months)<br>
@@ -162,7 +166,8 @@
                         </ul>
                       </li>
                   </ul>
-                </li>
+                </li></p>
+                <p>
                 <li>
                     <b>Data Migration (Design, Build, Test)</b><br>
                     March 2020 - January 2021 (10 months)<br>
@@ -177,7 +182,8 @@
                         </ul>
                       </li>
                     </ul>
-                </li>
+                </li></p>
+                <p>
                 <li>
                     <b>Integration (Design)</b><br>
                     January 2020 - March 2020 (3 months)<br>
@@ -185,7 +191,8 @@
                       <li>Designed how systems would integrate for a SimCorp Dimension implementation at an Asset Management firm. Notable data entities worked on include: FX rates, Portfolio static data.</li>
                       <li>Updated existing integration specifications based on feasibility challenges and knowledge gaps uncovered during the Build and Test phases. Notable data entities worked on include: Cash Dividend Corporate Actions, Party static data and Positions data for risk calculations.</li>
                     </ul>
-                </li>
+                </li></p>
+                <p>
                 <li>
                     <b>Master Data Management (Test)</b><br>
                     July 2019 - January 2020 (7 months)<br>
@@ -198,15 +205,16 @@
                         </ul>
                       </li>
                     </ul>
-                </li>
+                </li></p>
+                <p>
                 <li><b>Integration (Design)</b><br>
                     January 2019 - July 2019 (7 months)<br>
                     <ul>
                         <li>Designed how systems would integrate for a SimCorp Dimension implementation at an Asset Management firm</li>
                         <li>Notable data entities worked on include: Calendar reference data, Party static data and Positions data for risk calculations</li>
                     </ul>
-                </li>
-            </ul>
+                </li></p>
+            </ol>
             <li><b>Analyst (Jan 2017 – Dec 2018)</b>
                 <ul>
                 <li>
@@ -223,22 +231,25 @@
                   </ul>
                 </ul>
             </li>
-            <li><b>Side Projects at Accenture</b>
-                <p>On the side, I found out more about the different services Accenture offers to clients to explore where I
-                    would be a best fit, and also explored ways to grow my skills outside my daily work. Therefore, I participated in</p>
+            <p>
+            <li><b>Side Projects at Accenture</b><br>
+                   On the side, I found out more about the different services Accenture offers to clients to explore where I
+                   would be a best fit, and also explored ways to grow my skills outside my daily work. Therefore, I participated in</p>
                 <ul>
                     <li><b>Growing My Skills or a Community</b>
-                        <ol>
+                        <ol><p>
                           <li><b>Accenture Coach and Be Coached Program</b>
                             <ul><li>I practised how to coach someone, while getting coached by someone else from an Accenture office outside of Singapore over 2 cycles</li>
                             </ul>
-                          </li>
+                          </li></p>
+                          <p>
                           <li><b>Accenture Singapore Liquid Studio Proof of Concept</b>
                             <ul><li>I developed process flows as part of a proof of concept using the IBM Blueworks BPM platform</li>
                                 <li><b>Technologies Used</b>
                                     <ul><li>Software: IBM Blueworks BPM platform</li></ul>
                             </ul>
-                          </li>
+                          </li></p>
+                          <p>
                           <li><b>Accenture Mental Health Ally Singapore Community</b>
                             <ul><li>One of 5 co-founders (Stephanie Gault, Pavan Sethi, Leong Jie Min, Daniel Flynn, and I) who launched the Mental Health Ally Singapore Community in 2018 customised for an Asian context to create a supportive community and fill the gap in resources to support mental wellness in the Singapore office</li>
                                 <li>Then I planned and executed events as part of the comms team since 2018 </li>
@@ -246,11 +257,26 @@
                                 <li>As we extended the community to the Malaysia, Indonesia and Thailand offices in 2021 and 2022, I helped out with gathering content to update the design of the internal Mental Wellness webpages.
                                     This required me to work with the comms team lead, a Singapore webpage designer, the Mental Health Ally committee from the respective countries and WordPress developers from the Philippines and Buenos Aires</li>
                             </ul>
-                          </li>
+                          </li></p>
                         </ol>
                     </li>
                     <li><b>Data and AI Side Projects</b>
-                        <ol>
+                        <ol><p>
+                          <li><b>Non-profit Client in the UK</b>
+                            <ul>
+                              <li>I worked on this project over weeknights and weekends (Singapore time) with core team leads coordinating out of our UK office</li>
+                              <li>We selected the teams we wanted to learn from and contribute to regardless of our level of experience</li>
+                              <ul><li>Data Engineering team - I learned and tried implementing data engineering components using Google Cloud Platform, focusing on data ingestion, data warehousing and backup to another region</li>
+                                  <li>Machine Learning team - Created and trained a weighted average logistic regression predictive model which served scores back to the data warehouse</li>
+                              </ul>
+                              <li><b>Technologies Used</b>
+                                  <ul><li>Language: Python</li>
+                                      <li>Software: Jupyter, PyCharm, Google Cloud SDK, Google Cloud BigQuery</li>
+                                      <li>Google Cloud Components: Cloud Storage (data lake), BigQuery (data warehouse), Cloud Functions (to run the data ingestion Python script), Cloud Scheduler, Cloud Source Repositories (store and maintain version control for our data engineering and machine learning work)</li>
+                              </ul>
+                            </ul>
+                          </li></p>
+                          <p>
                           <li><b>Accenture Development Partnerships Non-profit Client in Africa</b>
                             <ul>
                               <li>I cleaned web browsing history data, classified and visualised customer interests for a customer segmentation case study</li>
@@ -258,34 +284,40 @@
                                   <ul><li>Software: Tableau, Qiksense, Power BI, Excel</li>
                               </ul>
                             </ul>
-                          </li>
+                          </li></p>
+                          <p>
                           <li><b>Accenture Development Partnerships Case Competition</b>
                             <ul>
                                 <li>I researched and proposed exploring partners which could work together to solve the problem of malaria, from engaging medical centres on the ground to secure ways to share data with teams running machine learning models to speed up diagnosis and treatment of malaria</li>
                             </ul>
-                          </li>
+                          </li><p>
+                          <p>
                           <li><b>Accenture Digital Skills UKI Artificial Intelligence FutureLearn Course</b>
                             <ul>
                                 <li>I mentored 2 cycles of learners in 2020 and 2011 by helping them with questions they asked, giving them readings to improve their understanding of what AI can do, understood and discussed what their concerns were with AI. 
                                     This was a way I could give back to the community after learning what I learned about AI within and outside of Accenture</li>
                             </ul>
-                          </li>
+                          </li></p>
+                          <p>
                           <li><b>Accenture Responsible AI Practice</b>
                             <ul>
                               <li>Desk research on the Responsible AI narrative in Singapore to help 2 US Responsible AI Co-Leads prepare for their sharing sessions in Singapore at a financial services client, a General Assembly event and media outlets</li>
                             </ul>
-                          </li>
+                          </li></p>
+                          <p>
                           <li><b>Accenture Responsible AI Practice</b>
                             <ul>
                               <li>Desk research on the Understandable AI narrative across governments globally to support thought leadership</li>
                             </ul>
-                          </li>
+                          </li></p>
+                          <p>
                           <li><b>Accenture Singapore Financial Services Practice</b>
                             <ul>
                               <li>Did a 1-year desk research to support business development on the use of reinforcement learning for customer analytics in banks.
                                   Within the team of 3 (a manager, another analyst and myself), we co-created the value driver trees, solution architecture and comparative analysis of software vendors which can satisfy the use case through readings and calls</li>
                             </ul>
-                          </li>
+                          </li></p>
+                          <p>
                           <li><b>Accenture CIO Data Visualisation Guild</b>
                             <ul>
                               <li>Received a honourable mention in the Talent Diversity Analytics challenge for my Power BI dashboard enriched with publicly available, external geographical data</li>
@@ -294,7 +326,21 @@
                               </ul>
                             </ul>
                             </li>
-                          </li>
+                          </li></p>
+                          <p>
+                          <li><b>IMDA-Accenture Data Science Training Program (Practical Training Component)</b>
+                            <ul>
+                              <li>My current POC losoks at storing and retrieving data in a denormalised form within HBase</li>
+                              <li>I set up a Linux VM in Virtualbox and the pre-requisites to work with HBase (e.g. the right version and configuration of HBase, JDK, etc)</li>
+                              <li>The challenge I am trying to solve is to programmatically make successful reads from and writes into HBase</li>
+                              <li><b>Technologies Used</b>
+                              <ul><li>Languagees: Python</li>
+                                  <li>Packages: NetworkX, Plotly, HappyBase</li>
+                                  <li>Software: Jupyter Notebook, Virtualbox (setup Linux VM), HBase (and HBase Shell), PySpark (within the Linux Terminal)</li>
+                              </ul>
+                            </ul>
+                            </li>
+                          </li></p>
                         </ol>
                     </li>
                 </ul>
@@ -306,12 +352,12 @@
             <h3>Student Project - Hanken Open University - Singapore</h3>
             <ul>
               <li><b>22084-V Strategy in Practice Course Project (Oct 2020 – Dec 2020)</b></li>
-                  <p><ul>
+                  <ul>
                       <li>Scoped out the business problems to solve based on planning and discussions with three Finnish team members and the Chief Marketing Officer (CMO) at the Finnish non-profit</li>
                       <li>Performed desk research and delivered the Dynamic Pricing strategy and implementation roadmap to the CMO</li>
                       <li>Presented our findings and recommendations to the class, and gathered feedback</li>
                       <li>To view the CMO's testimonial, please visit <a href="https://www.linkedin.com/in/kaiquan-mah-acn/" target="_blank">the recommendations section of my LinkedIn profile</a></li>
-                  </ul></p>
+                  </ul>
               </li>
             </ul>
         </section>
@@ -320,7 +366,7 @@
             <h3>Senior Officer - United Overseas Bank - Singapore</h3>
             <ul>
               <li><b>Senior Officer (Apr 2016 – Jan 2017)</b></li>
-                  <p><ul>
+                  <ul>
                       <li>Planned the test approach for SAP change requests assigned for me to test under the guidance of an AVP or VP</li>
                       <li>Created and executed user acceptance tests for SAP ECC6 (used by other countries) and 4.5B (used solely by Indonesia) change requests in parallel</li>
                       <li>Topics include: Data reconciliation, Accounts Receivable workflow, duplicate invoice validation, monthly batch jobs, user interface, general ledger upload template, etc</li>
@@ -329,7 +375,7 @@
                         <ul><li>Software: JIRA, SAP ECC6 and 4.5B FICO (Finance and Controlling) & MM (Materials Management)</li>
                         </ul>
                       </li>
-                  </ul></p>
+                  </ul>
               </li>
             </ul>
           </section>
@@ -338,7 +384,7 @@
               <h3>Content Management Intern - Wallstreetoasis.com - Singapore</h3>
               <ul>
                 <li><b>Content Management Intern (Dec 2014 – Jan 2016)</b></li>
-                    <p><ul>
+                    <ul>
                         <li>Rewarded users with Silver Bananas for insightful comments or posts</li>
                         <li>Read, sub-edited, formatted and published posts from contributing authors using HTML</li>
                         <li>Identified quality posts to bump onto the front page</li>
@@ -346,7 +392,7 @@
                         <li><b>Technologies Used</b>
                           <ul><li>Language: HTML</ul></li>
                         </li>
-                    </ul></p>
+                    </ul>
                 </li>
               </ul>
             </section>
@@ -360,28 +406,42 @@
               </ul>
             </section>
         <!-- End of Job block. -->
-      </section>
+      </div>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section>
+      <div class="education-container">
         <h2>Education</h2>
 
         <!-- Copy this whole <section> block to add more schools. -->
         <section>
           <h3>University of London - Singapore</h3>
-          <p>Bachelor of Science, Accounting and Finance, 2012-2015</p>
+          Bachelor of Science, Accounting and Finance, 2012-2015
         </section>
-
+        <br>
         <section>
           <h3>Singapore Polytechnic - Singapore</h3>
-          <p>Diploma in Biomedical Science (Medical Technology), 2006-2009</p>
-          <p><ul>
+          Diploma in Biomedical Science (Medical Technology), 2006-2009
+          <ul>
             <li>Research Project - K. Mah, S. Tan, J. Chong and A. Basri. RNA interference as a potential antiviral treatment against Enterovirus 71. Singapore Polytechnic, School of Chemical and Life Sciences, 2009 (Grade B+)</li>
             <li>Internship - Kandang Kerbau Women’s and Children’s Hospital Lab (Grade B+)</li>
-          </ul></p>
+          </ul>
         </section>
         <!-- End of School block. -->
-      </section>
+      </div>
+
+      <!-- ******************  TRAININGS ****************** -->
+      <div class="trainings-container">
+          <h2>Relevant Trainings and Certifications</h2>
+          <!-- Copy this whole <section> block to add more trainings. -->
+          <ul><li>Outside of work, I have learned data and machine learning concepts relevant to my work or to grow as a data analyst/data science professional, whether they provied certifications or not.</li>
+              <li>I have also learned some things which were just interesting to me at a certain point in time.</li>
+          </ul>
+          <section>
+            Links coming soon in November 2022!
+          </section>
+          <br>
+          <!-- End of Trainings block. -->
+      </div>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>

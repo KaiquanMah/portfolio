@@ -1,3 +1,55 @@
 html {
   font-size: 100%;
 }
+
+.flex {
+  display: flex;
+}
+
+header {
+  color: white;
+}
+
+body {
+  margin-top: 0;
+  font-family: sans-serif;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #444ea5;
+}
+/* c7e3f7 */
+
+main,
+div,
+footer {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h2 + ul,
+h2 + p,
+p + ul {
+  margin-top: -10px;
+}
+
+h3 {
+  margin: 0;
+}
+
+/* container color */
+.current-interests-container,
+.writing-container,
+.education-container,
+footer {
+  background-color: #f7e7d8;
+}
+/* f8efe1 */
+
+.projects-container,
+.work-container,
+.trainings-container {
+  background-color: #ffffff;
+}
+/* f5f5f5 */
